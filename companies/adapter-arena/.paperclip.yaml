@@ -1,0 +1,31 @@
+schema: paperclip/v1
+
+agents:
+  test-director:
+    adapter:
+      type: claude_local
+      config:
+        model: claude-sonnet-4-6
+  claude-runner:
+    adapter:
+      type: claude_local
+      config:
+        model: claude-sonnet-4-6
+  codex-runner:
+    adapter:
+      type: codex_local
+  cursor-runner:
+    adapter:
+      type: cursor
+  gemini-runner:
+    adapter:
+      type: gemini_local
+  opencode-runner:
+    adapter:
+      type: opencode_local
+  pi-runner:
+    adapter:
+      type: pi_local
+  openclaw-runner:
+    adapter:
+      type: openclaw_gateway
