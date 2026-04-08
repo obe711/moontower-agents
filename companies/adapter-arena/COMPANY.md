@@ -21,6 +21,7 @@ Adapter Arena is a benchmarking company that evaluates Paperclip's agent adapter
 2. Each runner agent independently executes the assigned task using its adapter
 3. Runners report results back via task comments with structured output
 4. The Test Director collects all results and generates the comparison report using the arena-report skill
+5. When new runners are needed, the Test Director assigns a task to the Agent Provisioner specifying the adapter type and configuration. The provisioner creates the new runner agent via the Paperclip hire API.
 
 ## Adapters Under Test
 
@@ -33,3 +34,4 @@ Adapter Arena is a benchmarking company that evaluates Paperclip's agent adapter
 | opencode-runner | opencode_local | OpenCode CLI |
 | pi-runner | pi_local | Pi CLI |
 | openclaw-runner | openclaw_gateway | OpenClaw Gateway |
+| agent-provisioner | claude_local | Claude Code CLI (creates new runner agents) |

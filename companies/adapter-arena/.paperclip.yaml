@@ -29,3 +29,6 @@ agents:
   openclaw-runner:
     adapter:
       type: openclaw_gateway
+  agent-provisioner:
+    adapter:
+      type: codex_local
