@@ -58,7 +58,6 @@ agents:
       type: claude_ollama
       config:
         model: qwen3.5:397b-cloud
-        dangerouslySkipPermissions: true
   agent-provisioner:
     adapter:
       type: codex_local
