@@ -6,29 +6,14 @@ agents:
       type: claude_local
       config:
         dangerouslySkipPermissions: true
-  # claude-runner:
-  #   adapter:
-  #     type: claude_local
-  #     config:
-  #       dangerouslySkipPermissions: true
+  claude-runner:
+    adapter:
+      type: claude_local
+      config:
+        dangerouslySkipPermissions: true
   codex-runner:
     adapter:
       type: codex_local
-  # cursor-runner:
-  #   adapter:
-  #     type: cursor
-  # gemini-runner:
-  #   adapter:
-  #     type: gemini_local
-  # opencode-runner:
-  #   adapter:
-  #     type: opencode_local
-  # pi-runner:
-  #   adapter:
-  #     type: pi_local
-  # openclaw-runner:
-  #   adapter:
-  #     type: openclaw_gateway
   glm-runner:
     adapter:
       type: claude_ollama
@@ -58,6 +43,7 @@ agents:
       type: claude_ollama
       config:
         model: qwen3.5:397b-cloud
+        dangerouslySkipPermissions: true
   agent-provisioner:
     adapter:
       type: codex_local
