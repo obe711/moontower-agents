@@ -34,5 +34,10 @@ Adapter Arena is a benchmarking company that evaluates Paperclip's agent adapter
 | gemini-runner     | gemini_local     | Google Gemini CLI                           |
 | opencode-runner   | opencode_local   | OpenCode CLI                                |
 | pi-runner         | pi_local         | Pi CLI                                      |
-| openclaw-runner   | openclaw_gateway | OpenClaw Gateway                            |
-| agent-provisioner | claude_local     | Claude Code CLI (creates new runner agents) |
+| openclaw-runner      | openclaw_gateway | OpenClaw Gateway                            |
+| glm-runner           | claude_ollama    | Claude Code CLI (GLM-5.1:cloud)             |
+| kimi-runner          | claude_ollama    | Claude Code CLI (kimi-k2.5:cloud)           |
+| minimax-runner       | claude_ollama    | Claude Code CLI (minimax-m2.7:cloud)        |
+| qwen3-coder-runner   | claude_ollama    | Claude Code CLI (qwen3-coder-next:cloud)    |
+| qwen3dot5-runner     | claude_ollama    | Claude Code CLI (qwen3.5:397b-cloud)        |
+| agent-provisioner    | claude_local     | Claude Code CLI (creates new runner agents) |
