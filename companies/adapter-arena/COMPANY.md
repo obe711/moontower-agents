@@ -25,13 +25,14 @@ Adapter Arena is a benchmarking company that evaluates Paperclip's agent adapter
 
 ## Adapters Under Test
 
-| Runner | Adapter | Tool |
-|--------|---------|------|
-| claude-runner | claude_local | Claude Code CLI |
-| codex-runner | codex_local | OpenAI Codex CLI |
-| cursor-runner | cursor | Cursor Agent CLI |
-| gemini-runner | gemini_local | Google Gemini CLI |
-| opencode-runner | opencode_local | OpenCode CLI |
-| pi-runner | pi_local | Pi CLI |
-| openclaw-runner | openclaw_gateway | OpenClaw Gateway |
-| agent-provisioner | claude_local | Claude Code CLI (creates new runner agents) |
+| Runner            | Adapter          | Tool                                        |
+| ----------------- | ---------------- | ------------------------------------------- |
+| claude-runner     | claude_local     | Claude Code CLI                             |
+| codex-runner      | codex_local      | OpenAI Codex CLI                            |
+| ollama-runner     | claude_ollama    | Claude Code CLI                             |
+| cursor-runner     | cursor           | Cursor Agent CLI                            |
+| gemini-runner     | gemini_local     | Google Gemini CLI                           |
+| opencode-runner   | opencode_local   | OpenCode CLI                                |
+| pi-runner         | pi_local         | Pi CLI                                      |
+| openclaw-runner   | openclaw_gateway | OpenClaw Gateway                            |
+| agent-provisioner | claude_local     | Claude Code CLI (creates new runner agents) |

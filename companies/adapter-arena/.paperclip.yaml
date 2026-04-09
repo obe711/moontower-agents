@@ -5,30 +5,30 @@ agents:
     adapter:
       type: claude_local
       config:
-        model: claude-sonnet-4-6
+        dangerouslySkipPermissions: true
   claude-runner:
     adapter:
       type: claude_local
       config:
-        model: claude-sonnet-4-6
+        dangerouslySkipPermissions: true
   codex-runner:
     adapter:
       type: codex_local
-  cursor-runner:
-    adapter:
-      type: cursor
-  gemini-runner:
-    adapter:
-      type: gemini_local
-  opencode-runner:
-    adapter:
-      type: opencode_local
-  pi-runner:
-    adapter:
-      type: pi_local
-  openclaw-runner:
-    adapter:
-      type: openclaw_gateway
+  # cursor-runner:
+  #   adapter:
+  #     type: cursor
+  # gemini-runner:
+  #   adapter:
+  #     type: gemini_local
+  # opencode-runner:
+  #   adapter:
+  #     type: opencode_local
+  # pi-runner:
+  #   adapter:
+  #     type: pi_local
+  # openclaw-runner:
+  #   adapter:
+  #     type: openclaw_gateway
   agent-provisioner:
     adapter:
       type: codex_local
